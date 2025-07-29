@@ -1,0 +1,148 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+main h1 {
+    color: #333;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* ---------------------CLIENT-------------------*/
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+/* ---------------------bouton deconnexion-------------------*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav li:last-child {
+    float: right;
+}
+/* ---------------------footer-------------------*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+html{
+    margin-top: 0;
+}
+/* pour ajouter client */
+.formulaire{
+    height: 60vh;
+    background-color: #d8d6d6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ajout{
+    text-align: center;
+}
+.formulaire input ,select,button,textarea 
+{
+    font-size: 1.3em;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.formulaire input:focus,select:focus
+{
+    border: none;
+    outline: none;
+}
+input[type="submit"]:hover,button:hover,textarea:hover
+{
+    background-color: #ccc;
+    
+}
+
+/* liste formulair */
+.listeform
+{
+    height: 60vh;
+}
